@@ -1,4 +1,4 @@
-#Breezy-GTK 0.15
+#Breezy-GTK 0.2
 
 A GTK / Gnome-Shell theme using a few colors from the Breeze color palette and a few that aren't.
 
@@ -16,4 +16,4 @@ Changelog
 ------------
 0.1 - Initial commit
 
-0.15 - Removed transparency from shell theme. This results in the panel and menus better matching the window headers and improves readability in the menus.
+0.2 - Removed transparency from shell theme. This results in the panel and menus better matching the window headers and improves readability in the menus.
