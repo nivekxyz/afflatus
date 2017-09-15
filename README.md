@@ -1,4 +1,5 @@
-#Breezy-GTK 0.2
+Breezy-GTK 0.2
+---------------
 
 A GTK / Gnome-Shell theme using a few colors from the Breeze color palette and a few that aren't.
 
