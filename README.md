@@ -12,8 +12,7 @@ Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
 Breezy-GTK currently looks best with Dash to Panel and Arc Menu/App Menu. A version with light window headers is in the works.
 
-------------
- Change log
+Change log
 ------------
 0.1 - Initial commit
 
