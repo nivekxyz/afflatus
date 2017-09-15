@@ -1,4 +1,4 @@
-#Breezy-GTK
+#Breezy-GTK 0.15
 
 A GTK / Gnome-Shell theme using a few colors from the Breeze color palette and a few that aren't.
 
@@ -10,4 +10,11 @@ Unzip breezy-gtk-master.zip and copy the breezy-gtk-master folder to /home/youru
 
 Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
-Breezy-GTK currently looks best with Dash to Panel and Arc Menu/App Menu. A version with light window headers is in the works. Currently the dark top panel in Gnome-Shell clashes with the dark window header and doesn't look very good when windows are maximized. This, and a few other things will soon be fixed!
+Breezy-GTK currently looks best with Dash to Panel and Arc Menu/App Menu. A version with light window headers is in the works.
+
+------------
+ Change log
+------------
+0.1 - Initial commit
+
+0.15 - Removed transparency from shell theme. This results in the panel and menus better matching the window headers and improves readability in the menus.
