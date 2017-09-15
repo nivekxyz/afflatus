@@ -17,3 +17,7 @@ Changelog
 0.1 - Initial commit
 
 0.2 - Removed transparency from shell theme. This results in the panel and menus better matching the window headers and improves readability in the menus.
+
+Issues
+------------
+Seems to have funny issues after first setting the theme (e.g. red checkboxes), these go away after reboot.
