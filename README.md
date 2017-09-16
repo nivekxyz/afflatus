@@ -11,7 +11,7 @@ Unzip breezy-gtk-master.zip and copy the breezy-gtk-master folder to /home/youru
 
 Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
-Breezy-GTK currently looks best with Dash to Panel and Arc Menu/App Menu. A version with light window headers is in the works.
+A version with light window headers is in the works.
 
 Issues
 ------------
