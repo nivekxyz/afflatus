@@ -7,7 +7,7 @@ Installation:
 
 NOTE: You must have the user themes extension enabled. This can be done easily with Gnome-Tweak-Tool.
 
-Unzip afflatus-master.zip and copy the afflatus-master folder to /home/yourusername/.themes
+Unzip afflatus-master.zip and copy the afflatus-master folder to /home/yourusername/.themes *or else* /usr/share/themes
 
 Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
