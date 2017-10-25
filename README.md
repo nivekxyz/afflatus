@@ -1,13 +1,13 @@
-Breezy-GTK 3.26
+Afflatus 3.26
 ---------------
 
-A GTK / Gnome-Shell theme using a few colors from the Breeze color palette and a few that aren't.
+A GTK / Gnome-Shell theme.
 
 Installation:
 
 NOTE: You must have the user themes extension enabled. This can be done easily with Gnome-Tweak-Tool.
 
-Unzip breezy-gtk-master.zip and copy the breezy-gtk-master folder to /home/yourusername/.themes
+Unzip afflatus-master.zip and copy the afflatus-master folder to /home/yourusername/.themes
 
 Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
