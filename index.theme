@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Breezy-GTK
-Comment=A GTK / Gnome-Shell theme using a few colors from the Breeze color palette and a few that aren't.
+Name=Afflatus 
+Comment=A GTK / Gnome-Shell theme.
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Breezy-GTK
-MetacityTheme=Breezy-GTK
+GtkTheme=Afflatus
+MetacityTheme=Afflatus
 IconTheme=Breeze
 CursorTheme=Adwaita
 CursorSize=24
