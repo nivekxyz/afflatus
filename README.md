@@ -26,3 +26,5 @@ Changelog
 0.4 - Fixed issue with shell theme that resulted in the default panel.solid color (black) taking over the panel when a window was full screen or near the panel. 
 
 3.26 - Changed versioning to match Gnome releases and made some refinements to the Gnome-Shell theme.
+
+! In the process of renaming the theme from "Breezy-GTK" to "Afflatus", then I will rebase the GTK theme on the current version of Materia instead of flat-plat. After that I will work on new color variations. !
