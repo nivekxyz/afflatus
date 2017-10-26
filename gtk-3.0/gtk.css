@@ -3127,6 +3127,13 @@ GbTerminalView {
   color: #fcfcfc;
 }
 
+/***********
+ * Synapse *
+ ***********/
+SynapseGuiMatchListView GtkWidget:selected {
+  background-color: #1d99f3;
+}
+
 /*********
  * Unity *
  *********/

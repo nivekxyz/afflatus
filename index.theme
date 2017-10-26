@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Afflatus 
-Comment=A GTK / Gnome-Shell theme.
+Name=Afflatus
+Comment=A GTK/Gnome-Shell theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Afflatus
 MetacityTheme=Afflatus
-IconTheme=Breeze
+IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24

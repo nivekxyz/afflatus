@@ -1,4 +1,4 @@
-Afflatus 3.26
+Afflatus 3.26.1
 ---------------
 
 A GTK / Gnome-Shell theme.
@@ -7,7 +7,7 @@ Installation:
 
 NOTE: You must have the user themes extension enabled. This can be done easily with Gnome-Tweak-Tool.
 
-Unzip afflatus-master.zip and copy the afflatus-master folder to /home/yourusername/.themes *or else* /usr/share/themes
+Unzip afflatus-master.zip and copy the afflatus-master folder to /home/yourusername/.themes
 
 Tip: Use Gnome-Tweak-Tool to change both your GTK and Shell themes.
 
@@ -25,4 +25,6 @@ Changelog
 
 0.4 - Fixed issue with shell theme that resulted in the default panel.solid color (black) taking over the panel when a window was full screen or near the panel. 
 
-3.26 - Changed name from "Breezy-GTK" to "Afflatus". Changed version to match Gnome version and made some refinements to the Gnome-Shell theme.
+3.26 - Changed versioning to match Gnome releases and made some refinements to the Gnome-Shell theme.
+
+3.26.1 - Rebased GTK theme on current clone of Materia. Resized and removed border from close window button in Activities overview.

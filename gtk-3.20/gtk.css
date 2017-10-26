@@ -1392,8 +1392,8 @@ headerbar.selection-mode .selection-menu {
   padding-right: 16px;
 }
 
-.selection-mode.titlebar:not(headerbar) .selection-menu GtkArrow,
-headerbar.selection-mode .selection-menu GtkArrow {
+.selection-mode.titlebar:not(headerbar) .selection-menu arrow,
+headerbar.selection-mode .selection-menu arrow {
   -GtkArrow-arrow-scaling: 1;
 }
 
@@ -1700,6 +1700,11 @@ menubar > menuitem:hover,
 menubar > menuitem:disabled,
 .menubar > menuitem:disabled {
   color: rgba(252, 252, 252, 0.3);
+}
+
+menubar > menuitem label:disabled,
+.menubar > menuitem label:disabled {
+  color: inherit;
 }
 
 .csd.popup {
@@ -3317,6 +3322,14 @@ stacksidebar row > label {
 /****************
  * File chooser *
  ****************/
+row image.sidebar-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+row:selected image.sidebar-icon {
+  color: rgba(252, 252, 252, 0.7);
+}
+
 placessidebar > viewport.frame {
   border-style: none;
 }
@@ -3343,20 +3356,12 @@ placessidebar row:disabled {
   color: rgba(0, 0, 0, 0.38);
 }
 
-placessidebar row image.sidebar-icon {
-  color: rgba(0, 0, 0, 0.54);
-}
-
 placessidebar row image.sidebar-icon:dir(ltr) {
   padding-right: 8px;
 }
 
 placessidebar row image.sidebar-icon:dir(rtl) {
   padding-left: 8px;
-}
-
-placessidebar row:selected image.sidebar-icon {
-  color: rgba(252, 252, 252, 0.7);
 }
 
 placessidebar row label.sidebar-label:dir(ltr) {
@@ -3552,14 +3557,6 @@ colorswatch.right overlay, colorswatch:last-child:not(.bottom) overlay {
   border-bottom-right-radius: 2px;
 }
 
-colorswatch.dark overlay {
-  color: #fcfcfc;
-}
-
-colorswatch.light overlay {
-  color: rgba(0, 0, 0, 0.87);
-}
-
 colorswatch.dark {
   color: #fcfcfc;
 }
@@ -3600,7 +3597,6 @@ colorswatch#add-color-button:only-child {
 
 colorswatch#add-color-button overlay {
   background-image: linear-gradient(to right, #EF5350 25%, #FFA726 25%, #FFA726 50%, #66BB6A 50%, #66BB6A 75%, #1d99f3 75%);
-  color: #fcfcfc;
 }
 
 colorswatch:disabled {
@@ -3772,6 +3768,9 @@ stackswitcher button.text-button.circular {
   padding: 0;
 }
 
+/*********
+ * Emoji *
+ *********/
 popover.emoji-picker {
   padding: 0;
 }
@@ -3916,10 +3915,6 @@ button.emoji-section:last-child {
 /*********
  * gedit *
  *********/
-.open-document-selector-name-label {
-  font-weight: bold;
-}
-
 .open-document-selector-path-label {
   color: rgba(0, 0, 0, 0.54);
   font-size: smaller;
